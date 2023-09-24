@@ -41,7 +41,7 @@
    
    ...
 
-4. On your laptop, open NoMachine and double click on the Nano desktop:
+4. On your laptop, open NoMachine and double click on the machine you are remotely connecting to (all the machines that are connected to the local network and that has NoMachine installed will show up automatically):
    
    <img width="870" alt="image" src="https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/d25ebb8b-9e64-4a04-8060-d60245a903aa">
 
