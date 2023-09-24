@@ -8,3 +8,16 @@
 2. Install NoMachine on Nano following the instructions [here](https://kb.nomachine.com/AR02R01074):
    
    `wget https://www.nomachine.com/free/arm/v8/deb -O nomachine.deb`
+
+   `sudo dpkg -i nomachine.deb`
+
+   `sudo apt install xfce4`
+
+   `sudo vim /usr/NX/etc/node.cfg`
+
+   Find DefaultDesktopCommand key and change line to following: DefaultDesktopCommand "/usr/bin/startxfce4"
+   Save the changes and close the file.
+
+   `sudo reboot`
+
+   `xrandr -o left`
