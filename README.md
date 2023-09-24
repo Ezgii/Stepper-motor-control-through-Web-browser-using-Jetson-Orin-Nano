@@ -5,7 +5,7 @@
 
 ### Remote connection to Jetson Orin Nano:
 1. Install [NoMachine client](https://www.nomachine.com/product&p=NoMachine%20Enterprise%20Client) on your laptop.
-2. Install NoMachine on Nano following the instructions [here](https://kb.nomachine.com/AR02R01074):
+2. Install NoMachine on Nano following the instructions [here](https://kb.nomachine.com/AR02R01074) (also written below):
    
    `wget https://www.nomachine.com/free/arm/v8/deb -O nomachine.deb`
 
