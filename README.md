@@ -15,7 +15,7 @@
 
    `sudo vim /usr/NX/etc/node.cfg`
 
-   Find DefaultDesktopCommand key and change line to following: DefaultDesktopCommand "/usr/bin/startxfce4"
+   A file will open. Find the line starting with DefaultDesktopCommand and change the line to the following: DefaultDesktopCommand "/usr/bin/startxfce4"
    Save the changes and close the file.
 
    `sudo reboot`
