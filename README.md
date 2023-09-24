@@ -43,10 +43,12 @@
    ...
 
 5. On your laptop, open NoMachine and double click on the machine you are remotely connecting to (all the machines that are connected to the local network and that has NoMachine installed will show up automatically):
-   
-   <img width="870" alt="image" src="https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/d25ebb8b-9e64-4a04-8060-d60245a903aa">
 
-6. Login by entering the username and password (of the user of the server you’re connecting to). (To see the username, on Nano terminal, type `whoami`).
+   <img width="870" alt="image" src="https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/d25ebb8b-9e64-4a04-8060-d60245a903aa">
+   
+   
+
+7. Login by entering the username and password (of the user of the server you’re connecting to). (To see the username, on Nano terminal, type `whoami`).
 
    <img width="1419" alt="image" src="https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/88c981fa-90fe-4ab3-a654-4c5da878d962">
 
