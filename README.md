@@ -20,4 +20,6 @@
 
    `sudo reboot`
 
+   Once rebooting is done, on the login screen, click on the gear icon and select `xfce4`, then login.
+
    `xrandr -o left`
