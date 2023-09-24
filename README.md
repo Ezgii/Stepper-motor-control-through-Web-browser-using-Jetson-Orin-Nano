@@ -33,7 +33,7 @@
    
    wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
    
-        inet **192.168.1.252**  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet **192.168.1.252 ** netmask 255.255.255.0  broadcast 192.168.1.255
    
         inet6 2600:1700:1152:40a0::3b  prefixlen 128  scopeid 0x0<global>
    
