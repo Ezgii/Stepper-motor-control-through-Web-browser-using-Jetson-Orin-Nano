@@ -61,7 +61,7 @@
 
    Finally, enable internet sharing by toggling the switch. At this point, the internet connection must be established between your MAC and Nano.
 
-4. On Nano terminal, type `ifconfig`, and check IP address under eth0: inet  **192.168.3.2**
+4. On Nano terminal, type `ifconfig`, and check IP address under eth0: inet  **192.168.3.2**. When you open NoMachine on your laptop, you will see your Nano device automatically. Double click and connect.
 
 ### To allow graphics without HDMI display:
 
