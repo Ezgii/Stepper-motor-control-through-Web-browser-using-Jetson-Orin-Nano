@@ -65,8 +65,8 @@ If you want to connect an HDMI monitor, on Nano terminal, type: `sudo systemctl 
 
 ### Remote connection through ethernet:
 
-1. Connect an ethernet cable between your laptop and Nano.
-2. On Nano terminal, type `ifconfig`, and check IP address under eth0: 
+1. On Nano (local) disconnect from wifi and connect an ethernet cable between your laptop and Nano.
+2. On Nano terminal, type `ifconfig`, and check IP address under eth0: inet6 fe80::c201:6356:5485:f149
 
 
    
