@@ -48,6 +48,11 @@
 6. Login by entering the username and password (of the user of the server you’re connecting to). (To see the username, on Nano terminal, type `whoami`).
 
   
+### To allow graphics without HDMI display:
 
+1. Right click on the desktop >> Settings >> Privacy >> Screen Lock
+
+2. Applications >> System >> Software Updater >> Settings
+   Set "Automatically check for updates" to 
 
    
