@@ -47,7 +47,22 @@
 
 6. Login by entering the username and password (of the user of the server you’re connecting to). (To see the username, on Nano terminal, type `whoami`).
 
-  
+
+### Remote connection through ethernet:
+
+1. On Nano (local) disconnect from wifi.
+2. Connect an ethernet cable between your laptop and Nano.
+3. On MAC laptop, go to "System Settings" and seach for "Sharing". 
+   Click on the "?" icon next to "Internet Sharing". Select the following:
+   
+   > Share your connection from: Wifi
+   
+   > To computers using: \*Check all the boxes\*
+
+   Finally, enable internet sharing by toggling the switch. The ethernet connection must be established.
+
+4. On Nano terminal, type `ifconfig`, and check IP address under eth0: inet  **192.168.3.2**
+
 ### To allow graphics without HDMI display:
 
 IMPORTANT - For headless system users
@@ -62,18 +77,5 @@ Step 2 - Disable the xserver using:
 (if Xserver was disabled after NoMachine installation, you will need to restart nxserver: sudo /usr/NX/bin/nxserver --restart).
 
 If you want to connect an HDMI monitor, on Nano terminal, type: `sudo systemctl set-default graphical.target` and then `sudo reboot`.
-
-### Remote connection through ethernet:
-
-1. On Nano (local) disconnect from wifi and connect an ethernet cable between your laptop and Nano.
-2. On Nano terminal, type `ifconfig`, and check IP address under eth0: inet6 fe80::c201:6356:5485:f149
-3. On MAC laptop, go to "System Settings" and seach for "Sharing". 
-   Click on the "?" icon next to "Internet Sharing". Select the following:
-   
-   > Share your connection from: Wifi
-   
-   > To computers using: \*Check all the boxes\*
-
-   Finally, enable internet sharing by toggling the switch.
 
    
