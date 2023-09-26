@@ -60,8 +60,8 @@ Step 1 -  Install Xfce4 desktop environment:
 Step 2 - Disable the xserver using:
 `sudo systemctl set-default multi-user.target`
 
-(if Xserver was disabled after NoMachine installation, you will need to restart nxserver: sudo /usr/NX/bin/nxserver --restart).
+(if Xserver was disabled after NoMachine installation, you will need to restart nxserver: `sudo /usr/NX/bin/nxserver --restart`).
 
-If you want to connect an HDMI monitor, on Nano terminal, type: `sudo systemctl set-default graphical.target` and then `sudo reboot`.
+If later you want to connect an HDMI monitor, on Nano terminal, type: `sudo systemctl set-default graphical.target` and then `sudo reboot`.
 
    
