@@ -72,7 +72,7 @@ If you want to connect an HDMI monitor, on Nano terminal, type: `sudo systemctl 
    
    > Share your connection from: Wifi
    
-   > To computers using: \*Check all boxes with "Ethernet"\*
+   > To computers using: \*Check all the boxes\*
 
    Finally, enable internet sharing by toggling the switch.
 
