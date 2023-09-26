@@ -63,5 +63,10 @@ Step 2 - Disable the xserver using:
 
 If you want to connect an HDMI monitor, on Nano terminal, type: `sudo systemctl set-default graphical.target` and then `sudo reboot`.
 
+### Remote connection through ethernet:
+
+1. Connect an ethernet cable between your laptop and Nano.
+2. On Nano terminal, type `ifconfig`, and check IP address under eth0: 
+
 
    
