@@ -7,19 +7,19 @@
 1. Install [NoMachine client](https://www.nomachine.com/product&p=NoMachine%20Enterprise%20Client) on your laptop.
 2. Install NoMachine on Nano following the instructions [here](https://kb.nomachine.com/AR02R01074) (also written below):
    
-   `wget https://www.nomachine.com/free/arm/v8/deb -O nomachine.deb`
+   Download the DEB package for ARMv8: `wget https://www.nomachine.com/free/arm/v8/deb -O nomachine.deb`
 
-   `sudo dpkg -i nomachine.deb`
+   Then install NoMachine with the 'dpkg' command: `sudo dpkg -i nomachine.deb`
 
-   `sudo apt install xfce4`  
+   Install Xfce4 desktop environment: `sudo apt install xfce4`  
 
-   `sudo vim /usr/NX/etc/node.cfg`
+   Configure NoMachine for the Xfce desktop: `sudo vim /usr/NX/etc/node.cfg`
 
-   A file will open. Find the line starting with `DefaultDesktopCommand` and change the line to the following: `DefaultDesktopCommand "/usr/bin/startxfce4"`
-   
-   Save the changes and close the file.
+      > A file will open. Find the line starting with `DefaultDesktopCommand` and change the line to the following: `DefaultDesktopCommand "/usr/bin/startxfce4"`
+      
+      > Save the changes and close the file.
 
-   `sudo reboot`
+   Reboot the system: `sudo reboot`
 
    Once rebooting is done, on the login screen, click on the gear icon and select `xfce4`, then login.
 
@@ -50,9 +50,15 @@
   
 ### To allow graphics without HDMI display:
 
-1. Right click on the desktop >> Settings >> Privacy >> Screen Lock
+IMPORTANT - For headless system users
+If you don't want to connect a monitor to your device and don't need to have xserver running, perform the following steps. You can skip Step 1 if you already installed Xfce.
 
-2. Applications >> System >> Software Updater >> Settings
-   Set "Automatically check for updates" to 
+Step 1 -  Install Xfce4 desktop environment:
+`sudo apt install xfce4`
+
+Step 2 - Disable the xserver using:
+`sudo systemctl set-default multi-user.target`
+
+(if Xserver was disabled after NoMachine installation, you will need to restart nxserver: sudo /usr/NX/bin/nxserver --restart).
 
    
