@@ -67,6 +67,13 @@ If you want to connect an HDMI monitor, on Nano terminal, type: `sudo systemctl 
 
 1. On Nano (local) disconnect from wifi and connect an ethernet cable between your laptop and Nano.
 2. On Nano terminal, type `ifconfig`, and check IP address under eth0: inet6 fe80::c201:6356:5485:f149
+3. On MAC laptop, go to "System Settings" and seach for "Sharing". 
+   Click on the "?" icon next to "Internet Sharing". Select the following:
+   
+   > Share your connection from: Wifi
+   
+   > To computers using: \*Check all boxes with "Ethernet"\*
 
+   Finally, enable internet sharing by toggling the switch.
 
    
