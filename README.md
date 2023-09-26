@@ -26,21 +26,7 @@
    `xrandr -o left` (to rotate the screen, if you want)
 
 
-4. Once the installations are completed, on Nano, check IP address:
-   
-   `ifconfig`
-   
-   ...
-   
-   wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-   
-        inet **192.168.1.252 ** netmask 255.255.255.0  broadcast 192.168.1.255
-   
-        inet6 2600:1700:1152:40a0::3b  prefixlen 128  scopeid 0x0<global>
-   
-        inet6 2600:1700:1152:40a0:7380:231a:5c5:13ce  prefixlen 64  scopeid 0x0<
-   
-   ...
+4. Once the installations are completed, on Nano terminal, type `ifconfig`, and check IP address under wlan0: inet **192.168.1.252**
 
 5. On your laptop, open NoMachine and double click on the machine you are remotely connecting to (all the machines that are connected to the local network and that has NoMachine installed will show up automatically).
    
