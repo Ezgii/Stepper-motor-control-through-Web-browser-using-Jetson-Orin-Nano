@@ -88,6 +88,10 @@ Do the following on Nano:
 
 > `make menuconfig`
 
+> `sudo apt-get install libncurses5-dev`
+
+> `sudo apt-get install pkg-config`
+
 
 
    
