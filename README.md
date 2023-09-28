@@ -74,7 +74,7 @@ Do the following on Nano:
    
 > `cd Desktop/nano_sources`
 
-> `tar -xvf public_sources.tbz2` to unpack it. We only need **kernel_src.tbz2**. We can remove the rest.
+> `tar -xvf public_sources.tbz2` to unpack it. We only need **kernel_src.tbz2**. Therefore, we remove the rest:
 
 > `mv Linux_for_Tegra/source/public/kernel_src.tbz2 .`
 
