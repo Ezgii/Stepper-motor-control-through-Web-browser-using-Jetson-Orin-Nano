@@ -90,13 +90,15 @@ Do the following on Nano:
 
 > `sudo apt-get install pkg-config`
 
+3. Now we are ready to use the UI!
+
 > `make menuconfig`
 
 The UI will open. Select Device Drivers >> Character devices. It looks like as shown below:
 
 ![figure1](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/UI.jpeg)
 
-3. Exit the GUI, and on the terminal, type:
+Exit the UI, and on the terminal, type:
 
 > `cd drivers/char`
 
