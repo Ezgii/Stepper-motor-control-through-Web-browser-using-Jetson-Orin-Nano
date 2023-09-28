@@ -64,4 +64,22 @@ Step 2 - Disable the xserver using:
 
 If later you want to connect an HDMI monitor, on Nano terminal, type: `sudo systemctl set-default graphical.target` and then `sudo reboot`.
 
+### Recompiling the Linux kernel on Nano
+
+Do the following on Nano:
+1. Go to [Nvidia Developer website](https://developer.nvidia.com/embedded/jetson-linux) and download "Driver Package (BSP) Sources".
+   A zip file named public_sources.tbz2 will be downloaded.
+   
+2. On terminal, type:
+   
+> `cd Downloads`
+
+> `tar -xvf public_sources.tbz2` to unpack it. We only need **kernel_src.tbz2**. We can remove the rest.
+
+> `mv Linux_for_Tegra/source/public/kernel_src.tbz2 .`
+
+> `rm -Rf Linux_for_Tegra`
+
+
+
    
