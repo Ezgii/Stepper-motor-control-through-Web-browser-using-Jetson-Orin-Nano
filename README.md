@@ -64,7 +64,7 @@ Step 2 - Disable the xserver using:
 
 If later you want to connect an HDMI monitor, on Nano terminal, type: `sudo systemctl set-default graphical.target` and then `sudo reboot`.
 
-### Recompiling the Linux kernel on Nano [[reference]](https://www.youtube.com/watch?v=ttSy14bQKCE)
+### "Make menuconfig" on Nano [[reference]](https://www.youtube.com/watch?v=ttSy14bQKCE)
 
 Do the following on Nano:
 1. Go to [Nvidia Developer website](https://developer.nvidia.com/embedded/jetson-linux) and download "Driver Package (BSP) Sources".
@@ -86,11 +86,27 @@ Do the following on Nano:
 
 > `zcat /proc/config.gz > .config` to copy the existing configuration.
 
-> `make menuconfig`
-
 > `sudo apt-get install libncurses5-dev`
 
 > `sudo apt-get install pkg-config`
+
+> `make menuconfig`
+
+In the GUI, select Device Drivers >> Character devices.
+
+3. Exit the GUI and on the terminal, type:
+
+> `cd drivers`
+
+> `cd char`
+
+> `vi Kconfig`
+
+Modify the Kconfig file. Save the changes and exit the file. Open the GUI again:
+
+> `cd Desktop/nano_sources/kernel/kernel-5.10`
+
+> `make menuconfig`
 
 
 
