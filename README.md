@@ -3,7 +3,7 @@
 2. Following the instructions [here](https://www.youtube.com/watch?v=IbRmYCpF_ws); download and install Visual Studio.
 3. [Tutorial](https://www.youtube.com/watch?v=JGMrDXCT_VM) to program GPIO pins to turn on/off an LED.
 
-### Remote connection to Jetson Orin Nano:
+### Remote connection to Jetson Orin Nano through Wifi:
 1. Install [NoMachine client](https://www.nomachine.com/product&p=NoMachine%20Enterprise%20Client) on your laptop.
 2. Install NoMachine on Nano following the instructions [here](https://kb.nomachine.com/AR02R01074) (also written below):
    
