@@ -92,21 +92,25 @@ Do the following on Nano:
 
 > `make menuconfig`
 
-In the GUI, select Device Drivers >> Character devices.
+The UI will open. Select Device Drivers >> Character devices. It looks like as shown below:
 
-3. Exit the GUI and on the terminal, type:
+![figure1](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/UI.jpeg)
 
-> `cd drivers`
+3. Exit the GUI, and on the terminal, type:
 
-> `cd char`
+> `cd drivers/char`
 
 > `vi Kconfig`
 
-Modify the Kconfig file. Save the changes and exit the file. Open the GUI again:
+Modify the Kconfig file. Save the changes and exit the file. Open the UI again by typing:
 
 > `cd Desktop/nano_sources/kernel/kernel-5.10`
 
 > `make menuconfig`
+
+Select Device Drivers >> Character Devices. It shows my modification now, as shown below:
+
+![figure2](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/UI_modified.jpeg)
 
 
 
