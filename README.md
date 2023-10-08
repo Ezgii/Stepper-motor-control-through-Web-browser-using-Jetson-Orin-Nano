@@ -91,10 +91,12 @@ Do the following on Nano:
 > `sudo apt-get install pkg-config`
 
 3. Now we are ready to use the UI!
+  
+> `cd Desktop/nano_sources/kernel/kernel-5.10`
 
 > `make menuconfig`
 
-The UI will open. Select Device Drivers >> Character devices. It looks like as shown below:
+The UI will open. It looks like as shown below:
 
 ![figure1](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/UI.jpeg)
 
@@ -104,7 +106,11 @@ Exit the UI, and on the terminal, type:
 
 > `vi Kconfig`
 
-Modify the Kconfig file. Save the changes and exit the file. Open the UI again by typing:
+Modify the Kconfig file as shown below. Save the changes and exit the file (press esc >> :wq). 
+
+![figure2](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/Kconfig_edit.jpeg)
+
+Open the UI again by typing:
 
 > `cd Desktop/nano_sources/kernel/kernel-5.10`
 
@@ -112,7 +118,7 @@ Modify the Kconfig file. Save the changes and exit the file. Open the UI again b
 
 Select Device Drivers >> Character Devices. It shows my modification now, as shown below:
 
-![figure2](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/UI_modified.jpeg)
+![figure3](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/UI_edited.jpeg)
 
 
 
