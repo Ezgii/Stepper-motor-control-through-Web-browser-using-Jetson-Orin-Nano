@@ -7,8 +7,16 @@
 1. Run this command:
 `sudo /opt/nvidia/jetson-io/jetson-io.py`
 
-2. A UI will open. Select the below pin by pressing the space button, as shown below.
+2. A UI will open. Select the below pins by pressing the space button, as shown below.
 
-   <img width="1141" alt="image" src="https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/d14095f4-4d00-4d50-9731-6639294ae8af">
+<img width="1060" alt="image" src="https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/04aedbb0-507f-45d6-99dc-df93674d51b5">
+
 
 Back >> Save pin changes >> Save and reboot to reconfigure pins.
+
+
+### Check PWM output on the scope:
+
+Eg: Set freq = 1000Hz, duty cycle = 25% (pin15 is used)
+
+![image](https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/26e19b73-5c4b-4561-9cde-cb33c7368e72)
