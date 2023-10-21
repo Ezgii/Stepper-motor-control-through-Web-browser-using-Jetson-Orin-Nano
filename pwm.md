@@ -14,6 +14,9 @@
 
 Back >> Save pin changes >> Save and reboot to reconfigure pins.
 
+<img width="1076" alt="image" src="https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/eabd3dfa-223e-4b80-a53c-0329df2e0393">
+
+
 
 ### Check PWM output on the scope:
 
