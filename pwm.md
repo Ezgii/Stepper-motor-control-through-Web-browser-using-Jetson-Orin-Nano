@@ -11,4 +11,4 @@
 
    <img width="1141" alt="image" src="https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/d14095f4-4d00-4d50-9731-6639294ae8af">
 
-Back >> Save pin changes >> save and exit without rebooting >> Press any key to exit.
+Back >> Save pin changes >> save and reboot to reconfigure pins.
