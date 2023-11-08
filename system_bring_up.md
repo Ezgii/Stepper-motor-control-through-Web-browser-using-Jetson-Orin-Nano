@@ -98,7 +98,8 @@ Do the following on Nano:
 
 The UI will open. It looks like as shown below:
 
-![figure1](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/UI.jpeg)
+![figure1](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/Figures/UI.jpeg)
+
 
 Exit the UI, and on the terminal, type:
 
@@ -108,7 +109,7 @@ Exit the UI, and on the terminal, type:
 
 Modify the Kconfig file as shown below. Save the changes and exit the file (press esc >> :wq). 
 
-![figure2](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/Kconfig_edit.jpeg)
+![figure2](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/Figures/Kconfig_edit.jpeg)
 
 Open the UI again by typing:
 
@@ -118,7 +119,7 @@ Open the UI again by typing:
 
 Select Device Drivers >> Character Devices. It shows my modification now, as shown below:
 
-![figure3](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/UI_edited.jpeg)
+![figure3](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/Figures/UI_edited.jpeg)
 
 
 
