@@ -107,7 +107,8 @@ Exit the UI, and on the terminal, type:
 
 > `vi Kconfig`
 
-Modify the Kconfig file as shown below. Save the changes and exit the file (press esc >> :wq). 
+Modify the Kconfig file as shown below. Save the changes and exit the file (press esc and type `:wq`). 
+If you want to exit file without saving the changes, press esc and type `:q!`.
 
 ![figure2](https://github.com/Ezgii/Jetson-Orin-Nano/blob/main/Figures/Kconfig_edit.jpeg)
 
