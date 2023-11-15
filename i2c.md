@@ -1,3 +1,16 @@
+### Hardware setup
+
+Establish the following connections:
+
+LSM303 Vin <--> Jetson Orin Nano J12-1 (3.3V)
+
+LSM303 GND <--> Jetson Orin Nano J12-9 
+
+LSM303 SCL <--> Jetson Orin Nano J12-5 
+
+LSM303 SDA <--> Jetson Orin Nano J12-3 
+
+
 ### Enable I2C
 
 1. Configure I2C:
