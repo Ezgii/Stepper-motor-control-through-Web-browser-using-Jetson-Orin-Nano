@@ -38,7 +38,15 @@ LSM303 SDA <--> Jetson Orin Nano J12-3
 
    ![image](https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/a9e8c814-1696-47b2-bfe4-d28e02c67885)
 
-
+   The detected I2C devices:
+   
    <img width="838" alt="image" src="https://github.com/Ezgii/Jetson-Orin-Nano/assets/4748948/9e844e52-adaf-4ae3-a755-970d7ca76f77">
+
+   As per the LSM303 datasheet,
+
+   For linear acceleration the default (factory) 7-bit slave address is 0011001b = 0x19.
+
+   For magnetic sensors the default (factory) 7-bit slave address is 0011110xb = 0x1E.
+
 
 
