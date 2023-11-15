@@ -23,7 +23,7 @@ LSM303 SDA <--> Jetson Orin Nano J12-3
 
 3. Install python smbus:
 
-   ezgi@ezgi-desktop:~$ `sudo apt-get install python-smbus`
+   ezgi@ezgi-desktop:~$ `sudo apt-get install python3-smbus`
 
 4. Reboot:
 
