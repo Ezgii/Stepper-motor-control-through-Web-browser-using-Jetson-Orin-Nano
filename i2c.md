@@ -11,3 +11,11 @@
 3. Install python smbus:
 
    ezgi@ezgi-desktop:~$ `sudo apt-get install python-smbus`
+
+4. Reboot:
+
+   ezgi@ezgi-desktop:~$ `sudo reboot`
+
+5. Check if any I2C device is detected:
+
+   ezgi@ezgi-desktop:~$ `i2cdetect -y 0`
