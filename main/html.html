@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Control Motor</title>
+    <style>
+        /* Add any CSS styles here */
+        /* Custom CSS to modify button size */
+        #submitBtn {
+            padding: 5px 10px; /* Adjust padding for button size */
+            font-size: 18px; /* Adjust font size */
+        }
+        /* Style for the output textbox */
+        #outputBox {
+            width: 90%;
+            height: 300px;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+            white-space: pre-line; /* Preserve line breaks */
+        }
+    </style>
+</head>
+<body>
+    <form id="controlForm">
+        <label for="angle">Angle:</label>
+        <input type="number" id="angle" name="angle" min="0" max="360" value="15"><br><br>
+
+        <label for="direction">Direction:</label>
+        <select id="direction" name="direction">
+            <option value="clockwise" selected>Clockwise</option>
+            <option value="counterclockwise">Counterclockwise</option>
+        </select><br><br>
+
+        <input type="button" value="Run Demo" onclick="sendData()" id="submitBtn">
+    </form>
+
+    <textarea id="outputBox" placeholder="Output log" readonly></textarea>
+
+    <script>
+        function sendData() {
+            var angle = document.getElementById("angle").value;
+            var direction = document.getElementById("direction").value;
+
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "http://192.168.3.2:5000//execute_motor?angle=" + angle + "&direction=" + direction, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                    // Process response text to format output
+                    var output = xhr.responseText.replace('{"output":"', '').replace('"}', ''); // Remove extra characters
+                    output = output.replace(/\\n/g, '\n'); // Replace '\\n' with newline '\n'
+                    document.getElementById("outputBox").value = output;
+                } else if (xhr.status !== 200) {
+                    document.getElementById("outputBox").value = xhr.status;
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
